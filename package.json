@@ -1,0 +1,17 @@
+{
+  "name": "alicemare",
+  "version": "1.0.0",
+  "description": "AliceMare fan site",
+  "main": "index.js",
+  "dependencies": {
+    "bundle": "^0.2.3",
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JvitorNery",
+  "license": "ISC"
+}
