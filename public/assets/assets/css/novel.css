@@ -1,0 +1,85 @@
+/* style for all*/
+
+
+.img-div-novel img {
+    display: inline-flex;
+}
+
+.img-div-novel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 40px;
+    color:white;
+}
+
+
+.info-novel-portrait {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.info-novel-portrait p a, .info-novel-land p a{
+	color: white;
+}
+
+
+
+@media only screen and (orientation:landscape){
+	
+	.info-novel-land {
+	    display: inline-block;
+	    width: 100%;
+	    font-size: 1.68em;
+	}
+
+	.info-novel-land p {
+		margin-left: 5%;
+	}
+
+	.info-novel-portrait{
+		display:none;
+	}
+
+	.img-div-novel img {
+	    width: 50%;
+	    height: 50%;
+	}
+	.info-novel-land p {
+		display: block;
+		width: 90%;
+	}
+	.content-middle {
+	    position: relative;
+	    top: 0px;
+	}
+
+
+	/*ipad pro*/
+	@media only screen and  (width: 1366px) and (height: 1024px){
+		.img-div-novel img {
+    		width: 100%;
+		}
+	}
+
+
+}
+
+@media only screen and (orientation:portrait){
+	
+	.img-div-novel img {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.info-novel-land{
+	display: none;
+	}
+
+	.info-novel-portrait {
+    width: 90%;
+    margin: 0 auto;
+	}
+
+}

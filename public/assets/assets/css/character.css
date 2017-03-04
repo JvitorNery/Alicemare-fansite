@@ -1,0 +1,173 @@
+/*characters*/
+
+.img-div {
+    width: 100px;
+    overflow: hidden;
+    height: 185px;
+    display: inline-block;
+}
+
+.img-div2 {
+    width: 135px;
+    overflow: hidden;
+    height: 185px;
+    display: inline-block;
+}
+
+.img-div3 {
+    width: 90px;
+    overflow: hidden;
+    height: 185px;
+    display: inline-block;
+}
+
+.Allen {
+    position: relative;
+    top: -195px;
+    left: -290px;
+}
+
+.Letty {
+	position: relative;
+    top: -11px;
+
+}
+
+.Ricky {
+    position: relative;
+    left: -100px;
+    top: -11px;
+}
+
+.Chelsy {
+    position: relative;
+    left: -175px;
+    top: 0px;
+    top: -11px;
+}
+
+.Joshua {
+	position: relative;
+    left: -407px;
+    top: -11px;
+}
+
+.Stella {
+    position: relative;
+    top: -200px;
+    left: -180px;
+}
+
+.Teacher {
+    position: relative;
+    top: -200px;
+    left: -400px;
+}
+
+.David {
+    position: relative;
+    top: -200px;
+    left: -100px;
+}
+
+.fiona {
+    position: relative;
+    top: 10px;
+}
+
+.Rabbit {
+    position: relative;
+    top: -200px;
+}
+
+.Cheshire {
+    position: relative;
+    left: -273px;
+    top: -11px;
+}
+
+/*divs style*/
+
+#appCharacter{
+    display: flex;
+}
+
+.char-containers{
+	display: inline-block;
+	width: 50%;
+	height: auto;
+    text-align: center;
+}
+
+.div-char {
+    display: inline-block;
+    width: 140px;
+    height: 250px;
+    margin-left: 2%;
+    background: white;
+    margin-top: 3%;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    overflow: hidden;
+    border: 5px solid mediumpurple;
+}
+
+.info-char {
+    /* overflow-y: hidden; */
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.info-char p {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: 5%;
+}
+
+
+/*info view*/
+.info-char-view {
+    width: 50%;
+    height: auto;
+    background: #8fc8fc;
+    /* margin: 0 auto; */
+    /* display: flex; */
+    display: inline-block;
+    
+}
+
+.title-view{text-align: center;}
+
+.info-char-view p {
+        margin-left: 10px;
+}
+
+.info-char-view li a {
+    color: rgba(61, 45, 107, 0.88);
+}
+
+
+/*div para trocar o valor de div-char*/
+.div-char-special {
+    display: inline-block;
+    width: 300px;
+    height: 295px;
+    margin-left: 2%;
+    background: white;
+    margin-top: 3%;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+@media only screen and (min-width: 1367px){
+
+    #appCharacter{
+        margin: 0 auto;
+    }
+}

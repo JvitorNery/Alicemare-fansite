@@ -1,0 +1,49 @@
+@media only screen and (orientation:portrait){
+        
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(75, 67, 126);
+    font-family: verdana;
+    color:white;
+}
+
+.all-content {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgb(75, 67, 126);
+	margin-top: 40px;
+}
+
+#nav-bar {
+	height: 40px;
+	background:rgba(61, 45, 107, 0.88);
+	display: flex;
+	width: 100%;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+#nav-bar li.nav-bar-item {
+	list-style: none;
+	display: inline-flex;
+	color: white;
+	margin-left: 2em;
+}
+
+#nav-bar li.nav-bar-item a {
+	text-decoration: none;
+	color: white;
+}
+
+.page-title {text-align: center;}

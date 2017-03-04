@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title class="title-font title">AliceMare</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/base.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/character.css" type="text/css"/>
+    <script src="assets/js/vue.js"></script>
+  </head>
+
+  <body>
+    <div class="all-content">
+      <nav id="nav-bar">
+        
+      </nav>
+
+      <div class="content-middle">
+        <br><h1 class="page-title">Characters</h1>
+        <div id="appCharacter">
+        	<!--<char-item v-for="item in char" v-bind:char="item"></char-item>-->
+
+          
+
+          <div class="char-containers">
+          <div v-for="(val,index) in char" class="div-char" v-on:click="select(index,val)">
+            <div >
+              <div v-bind:class="[val.divType]">
+                <img v-bind:src="[val.src]" v-bind:class="[val.class]"/>
+              </div>
+              <div class="info-char">
+                <h3>{{val.title}}</h3>
+                <p>{{val.desc}}</p>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+
+          <div class="info-char-view">
+              
+          </div>
+
+
+        </div>
+      </div>
+
+      <footer>
+      	
+      </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/appCharacter.js"></script>
+    <script src="assets/js/base.js"></script>
+  </body>
+
+</html>
