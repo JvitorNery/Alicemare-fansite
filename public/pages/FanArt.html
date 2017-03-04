@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/base.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/fan-art.css" type="text/css"/>
     <script src="assets/js/vue.js"></script>
 	
   </head>
@@ -22,12 +23,25 @@
         <li class="nav-bar-item"><a href="novel">Novel</a></li>
       </nav>
 
+      <br><h1 class="page-title">Fan Art</h1>
       <div class="content-middle">
+        
         <div id="app">
-        	
+        	<div class="div-img">
+            <div v-for="(val,index) in img" class="div-img-interno" v-on:click="showIMG(index,val)">
+              <div class="div-img-fan-art">
+                <img v-bind:src="[val.src]" v-bind:class="[val.class]"/>
+              </div>
+              
+            </div>
+            
+          </div>
         </div>
       </div>
+      <div class="modal">
 
+      </div>
+        <script type="text/javascript" src="assets/js/fan-art.js"></script>
       <footer>
       	
       </footer>
