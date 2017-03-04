@@ -2,16 +2,18 @@
     display: flex;
 }
 .div-img {
-    width: auto;
+    width: 80%;
     height: auto;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 .div-img .div-img-interno {
-    display: inline-flex;
-    width: auto;
+    display: inline-block;
+    width: 33.333333333%;
     height: auto;
+    float: left;
+    margin-bottom: 1%;
 }
 .div-img .div-img-interno img {
     width: 95%;
