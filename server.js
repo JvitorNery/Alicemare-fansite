@@ -7,6 +7,8 @@ app.use(express.static('./public'));
 
 //http.createServer(app).listen(3000);
 
+var port = process.env.PORT || 3000;
+
 app.get('/',function(req,res){
 	res.sendFile(__dirname + '/index.html')
 });
@@ -29,6 +31,6 @@ app.get('/Chat-RPG',function(req,res){
 	res.sendFile(__dirname + '/public/pages/Chat-RPG.html')
 });
 
-app.listen(3000, function(){
+app.listen(port, function(){
 	console.log("server rodando em porta 3000");
 });
