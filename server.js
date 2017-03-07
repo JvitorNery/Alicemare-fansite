@@ -29,6 +29,6 @@ app.get('/Chat-RPG',function(req,res){
 	res.sendFile(__dirname + '/public/pages/Chat-RPG.html')
 });
 
-http.listen(3000, function(){
+app.listen(3000, function(){
 	console.log("server rodando em porta 3000");
 });
