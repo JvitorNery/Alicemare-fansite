@@ -2,7 +2,10 @@
   "name": "alicemare",
   "version": "1.0.0",
   "description": "AliceMare fan site",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "bundle": "^0.2.3",
     "express": "^4.14.1",
